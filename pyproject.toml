@@ -52,6 +52,9 @@ sampling = [  # Example on how we can setup optional dependencies depending on t
     "jaxlib"
 ]
 
+[tool.poetry.dependencies]
+python = ">=3.10, <3.11"
+
 # ____________________________________________________________________________________________________________________
 [tool.hatch.metadata]
 allow-direct-references = true  # Allow direct references to packages in the same repository
